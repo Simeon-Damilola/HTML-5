@@ -1,0 +1,100 @@
+.name {
+  display: block;
+  margin-bottom: 5px;
+}
+.support {
+  width: 200px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.google {
+  width: 200px;
+  height: 150px;
+  display: block;
+  margin-bottom: 5px;
+}
+.search {
+  margin-top: 0;
+  width: 200px;
+  border-radius: 10px;
+  border-color: grey;
+  border-style: solid;
+  margin-bottom: 100px;
+}
+.fname,
+.sname {
+  border-radius: 5px;
+  border-color: grey;
+  border-style: solid;
+  height: 20px;
+}
+.email2 {
+  width: 350px;
+  border-radius: 5px;
+  border-color: grey;
+  border-style: solid;
+  height: 20px;
+}
+.sign-up {
+  width: 360px;
+  color: white;
+  background-color: blue;
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+  border-color: blue;
+  border-style: solid;
+  transition: 0.25s;
+  margin-bottom: 70px;
+}
+.sign-up:hover {
+  cursor: pointer;
+  background-color: white;
+  color: blue;
+}
+.text {
+  font-size: 30px;
+  font-family: Arial;
+}
+.location {
+  width: 300px;
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(228, 226, 226);
+  color: black;
+  height: 40px;
+  margin-bottom: 0px;
+}
+.destination {
+  margin-top: 0px;
+  width: 300px;
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(228, 226, 226);
+  color: black;
+  height: 40px;
+}
+.now {
+  width: 150px;
+  border-radius: none;
+  border: none;
+  background-color: black;
+  color: white;
+  height: 30px;
+  margin-bottom: 0px;
+}
+.now:hover {
+  cursor: pointer;
+}
+.later {
+  margin-top: 0px;
+  width: 150px;
+  border-radius: none;
+  border: none;
+  background-color: rgb(228, 226, 226);
+  color: black;
+  height: 30px;
+}
+.later:hover {
+  cursor: pointer;
+}

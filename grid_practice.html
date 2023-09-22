@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Practice</title>
+  </head>
+  <body style="padding-bottom: 1000px;">
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      ">
+      <div style="background-color: lightblue">DIV1</div>
+      <div style="background-color: lightpink">
+        DIV2
+        <p>TEXT</p>
+      </div>
+      <div style="background-color: lightgreen">DIV3</div>
+    </div>
+
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+        margin-bottom: 30px;
+      ">
+      <div style="background-color: lightblue">DIV1</div>
+      <div style="background-color: lightpink">
+        DIV2
+        <p>TEXT</p>
+      </div>
+      <div style="background-color: lightgreen">DIV3</div>
+      <div style="background-color: lightgoldenrodyellow">DIV 4</div>
+    </div>
+
+    <div
+      style="
+        display: grid;
+        grid-template-columns: 100px 3fr 1fr;
+        margin-bottom: 30px;
+      ">
+      <div style="background-color: lightblue">DIV1</div>
+      <div style="background-color: lightpink">
+        3fr
+        <p>3 free space</p>
+      </div>
+      <div style="background-color: lightgreen">
+        1 free space
+        <p>free space</p>
+      </div>
+    </div>  
+
+      <div
+        style="
+          margin-top: 10px;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          column-gap: 20px;
+          row-gap: 40px;
+        ">
+        <div style="background-color: lightblue; height: 200px;">1fr</div>
+        <div style="background-color: lightpink; height: 200px;">1fr</div>
+        <div style="background-color: lightgreen; height: 200px;">1fr</div>
+        <div style="background-color: lightpink; height: 200px;">1fr</div>
+        <div style="background-color: lightgreen; height: 200px;">1fr</div>
+        <div style="background-color: lightblue; height: 200px;">1fr</div>
+      </div>
+    </div>
+  </body>
+</html>
